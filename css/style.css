@@ -5,13 +5,18 @@ section {
 	border: 2px dashed green;
 }
 
+#header {
+	min-height: 80px;
+	border: 2px dashed green;
+}
+
 [class*="container"] {
 	min-height: 20px;
 	border: 2px dashed orange;
 }
 
 [class*="col"],
-.box {
+#jumbotron>.box {
 	min-height: 80px;
 	border: 2px dashed aqua;
 }
